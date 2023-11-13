@@ -1,0 +1,29 @@
+.marco,
+.cabeza {
+border: 1px solid;
+}
+
+.marco {
+height: 400px;
+width: 400px;
+margin: auto;
+margin-top: 80px;
+border-radius: 5px;
+box-shadow: 8px 8px 8px 8px;
+}
+.cabeza {
+border-color: red;
+height: 30px;
+background-color: beige;
+}
+
+button {
+float: right;
+}
+.cuerpo {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-top: 70px;
+}
